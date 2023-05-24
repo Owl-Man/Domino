@@ -8,16 +8,34 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="187dp"
-        android:layout_height="56dp"
+        android:id="@+id/textView2"
+        android:layout_width="277.5dp"
+        android:layout_height="70dp"
         android:text="DOMINO"
-        android:textSize="48sp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="62sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081" />
+        app:layout_constraintVertical_bias="0.082" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="74dp"
+        android:text="DOMINO"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
 
     <Button
         android:id="@+id/button"
